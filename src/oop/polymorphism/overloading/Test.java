@@ -1,11 +1,13 @@
-package oop.polymorphism;
+package oop.polymorphism.overloading;
+
+
 
 public class Test {
 
     public static void main(String[] args) {
 
 
-        Calculator calculator = new Calculator();
+        Calculator calculator= new Calculator();
         calculator.doSummation();
 
         calculator.doSummation(30, 40);
